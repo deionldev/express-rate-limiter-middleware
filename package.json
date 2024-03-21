@@ -1,0 +1,25 @@
+{
+  "name": "express-rate-limiter-middleware",
+  "version": "1.0.1",
+  "description": "An Express middleware for rate limiting requests using Redis.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deionldev/express-rate-limiter-middleware"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "rate-limiter",
+    "redis"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.1.2",
+    "rate-limit-redis": "^2.0.0"
+  }
+}
